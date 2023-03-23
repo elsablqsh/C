@@ -1,4 +1,8 @@
 # 4주차 C언어 실습
+- 4주차 복습
+
+
+- 4주차 실습
 ```
 #include<stdio.h>
 int main(){
