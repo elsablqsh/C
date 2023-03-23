@@ -4,14 +4,16 @@
 
 - 4주차 실습
 ```
-#include<stdio.h>
-int main(){
-char code1 = 'A'; 
-    char code2 = 65;
-
-    printf("code1= %c\n", code1);
-    printf("code2-1= %c\n", code2-1);
-
+#include <stdio.h>
+int main()
+{
+double x, y, result;
+printf("두개의 실수를 입력하시오: ");
+scanf("%lf %lf", &x, &y);
+result = x + y; // 덧셈 연산을 하여서 결과를 result에 대입
+printf("%f / %f = %f", x, y, result);
+result = x / y;
+printf("%f / %f = %f", x, y, result);
 return 0;
- }
- ```
+```
+}
