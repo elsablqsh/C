@@ -17,6 +17,9 @@ change = change % 1000;
 c500 = change/500;
 change = change % 500;
 
+c100 = change/100;
+change = change % 100;
+
 printf("\n천원권:%d장\n", c1000);
 printf("오백원 동전:%d개\n", c500);
 printf("백원 동전:%d개\n", c100);
